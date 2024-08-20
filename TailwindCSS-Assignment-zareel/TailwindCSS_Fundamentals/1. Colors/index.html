@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Colors</title>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+     1. Colors With Different Shades 
+    <!-- https://tailwindcss.com/docs/customizing-colors  -->
+      <div class="bg-stone-600">
+        <h2 class="text-sky-100 text-2xl">Text Colour</h2>
+        <h2 class="text-sky-200 text-2xl">Text Colour</h2>
+        <h2 class="text-sky-300 text-2xl">Text Colour</h2>
+        <h2 class="text-sky-400 text-2xl">Text Colour</h2>
+      </div> <br>
+
+     2. Background Colors
+    <!-- https://tailwindcss.com/docs/background-color -->
+     <div>
+      <h2 class="bg-indigo-300 text-white text-2xl">BG</h2>
+      <h2 class="bg-lime-500 text-white text-2xl">BG</h2>
+      <h2 class="bg-purple-500 text-white text-2xl">BG</h2>
+      <h2 class="bg-fuchsia-500 text-white text-2xl">BG</h2>
+     </div> <br>
+
+    3. Text Underline
+    <!-- https://tailwindcss.com/docs/accent-color -->
+        <div class="bg-teal-200"> 
+          <h2 class="text-black font-bold text-2xl hover:underline hover:text-purple-900">Home</h2>
+          <h2 class="text-black font-bold text-2xl hover:underline hover:text-violet-50">Home</h2>
+          <h2 class="text-black font-bold text-2xl hover:underline hover:text-rose-950">Home</h2>
+          <h2 class="text-black font-bold text-2xl hover:underline hover:text-orange-500">Home</h2>
+        </div> <br>
+
+    4. Accent color 
+    <!-- https://tailwindcss.com/docs/accent-color -->
+        <form>
+          <label class="text-2xl font-semibold">
+            <input type="checkbox" class="accent-orange-500">Orange
+          </label> <br>
+          <label class="text-2xl font-semibold">
+            <input type="checkbox" class="accent-lime-500">Grape
+          </label> <br>
+          <label class="text-2xl font-semibold">
+            <input type="checkbox" class="accent-red-500">Apple
+          </label> <br>
+          <label class="text-2xl font-semibold">
+            <input type="checkbox" class="accent-yellow-400">Banana
+          </label>
+        </form> <br>
+
+     5. Arbitrary colors 
+    <!-- https://tailwindcss.com/docs/customizing-colors#arbitrary-values -->
+     <div>
+      <button class="bg-[#808000] text-white text-3xl font-bold px-5 rounded">Open</button>
+      <button class="bg-[#000080] text-white text-3xl font-bold px-5 rounded">Order</button>
+      <button class="bg-[#DE3163] text-white text-3xl font-bold px-5 rounded">Click</button>
+      <button class="bg-[#2e86c1] text-white text-3xl font-bold px-5 rounded">Cancel</button>
+     </div>
+     
+  </body>
+</html>
