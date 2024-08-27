@@ -8,29 +8,110 @@
     <title>Sizing</title>
   </head>
   <body class="p-20">
-    <!-- Width -->
+         Width 
     <!-- https://tailwindcss.com/docs/width -->
+       <div class="bg-stone-950 text-black px-2 py-4">
+        <div class="bg-blue-300 w-20 rounded px-1">w-20</div>
+        <div class="bg-lime-300 w-24 rounded px-1">w-24</div>
+        <div class="bg-purple-400 w-36 rounded px-1">w-36</div>
+        <div class="bg-teal-200 w-40 rounded px-1">w-40</div>
+        <div class="bg-yellow-400 w-48 rounded px-1">w-48</div>
+        <div class="bg-red-300 w-96 rounded px-1">w-96</div>
+        
+       </div> <br>
 
-    <!-- Percentages -->
+       Percentages
+       <div class="flex flex-col gap-4 bg-stone-600 px-1-500 text-black px-2 py-5">
+        <div class="flex gap-2">
+          <div class="bg-yellow-400 w-1/2 rounded px-1 text-xl">w-1/2</div>
+          <div class="bg-pink-300 w-2/3 rounded px-1 text-xl">w-2/3</div>
+          <div class="bg-red-300 w-1/5 rounded px-1 text-xl">w-1/5</div>
 
-    <!-- Max Width -->
+        </div>
+        <div class="flex gap-2">
+        <div class="bg-pink-200 w-2/5 rounded px-1 text-xl">w-2/5</div>
+        <div class="bg-violet-200 w-3/5 rounded px-1 text-xl">w-3/5</div>
+        <div class="bg-cyan-100 w-full rounded px-1 text-xl">w-full</div>
+        </div>
+       </div> <br>
+
+        Max Width 
     <!-- https://tailwindcss.com/docs/max-width -->
+         <div class=" flex flex-col bg-pink-400 px-1 py-2 gap-1 text-xl rounded"> 
+          <div class="bg-lime-600 text-black w-full max-w-md px-1 text-xl rounded">max-w-md</div>
+          <div class="bg-yellow-600 text-black w-full max-w-96 px-1 text-xl rounded">max-w-96</div>
+          <div class="bg-blue-300 text-black w-full max-w-64 px-1 text-xl rounded">max-w-64</div>
+          <div class="bg-rose-200 text-black w-full max-w-40 px-1 text-xl rounded">max-w-40</div>
+          <div class="bg-red-300 text-black w-full max-w-24 text-xl rounded">max-w-24</div>
+         </div> <br>
 
-    <!-- Width of the viewport -->
-    <!-- 100% of container -->
-    <!-- Arbitrary Width -->
+       Width of the viewport
+      <div class="bg-lime-950 px-2 py-4">
+        <div class="w-screen bg-lime-700 text-white text-2xl font-bold">This div spans the entire width of the viewport.</div>
+        </div>
+      </div> <br>
 
-    <!-- Height (Most of the same options as widths) -->
+       100% of container 
+       <div class=" flex bg-cyan-600 px-2 py-5 gap-5">
+        <div class="size-16 bg-orange-500 text-xl text-black font-semibold">size-16</div>
+        <div class="size-20 bg-orange-500 text-xl text-black font-semibold">size-20</div>
+        <div class="size-24 bg-orange-500 text-xl text-black font-semibold">size-24</div>
+        <div class="size-32 bg-orange-500 text-xl text-black font-semibold">size-32</div>
+        <div class="size-40 bg-orange-500 text-xl text-black font-semibold">size-40</div>
+       </div> <br>
+
+       Arbitrary Width
+          <svg class="stroke-1 bg-green-200"></svg>
+          <svg class="stroke-2 bg-green-300">1</svg></div>
+          <svg class="stroke-2 bg-green-400">1</svg></div> <br>
+       
+
+       Height (Most of the same options as widths)
     <!-- https://tailwindcss.com/docs/height -->
-
-    <!-- Min Height -->
+          <div class="flex bg-stone-600 gap-5 px-4 py-5">
+            <div class="h-96 bg-teal-100 px-3">h-96</div>
+            <div class="h-80 bg-teal-200 px-3">h-80</div>
+            <div class="h-64 bg-teal-300 px-3">h-64</div>
+            <div class="h-48 bg-teal-400 px-3">h-48</div>
+            <div class="h-40 bg-teal-500 px-3">h-40</div>
+            <div class="h-32 bg-teal-600 px-3">h-32</div>
+            <div class="h-24 bg-teal-700 px-3">h-24</div>
+          </div>
+      Min Height 
     <!-- https://tailwindcss.com/docs/min-height -->
+          <div class="flex h-96 bg-gray-800 gap-3 px-3 py-4">
+            <div class="min-h-80 bg-purple-200 px-3 font-semibold">min-h-80</div>
+            <div class="min-h-64 bg-purple-300 px-3 font-semibold">min-h-64</div>
+            <div class="min-h-48 bg-purple-400 px-3 font-semibold">min-h-48</div>
+            <div class="min-h-40 bg-purple-500 px-3 font-semibold">min-h-40</div>
+            <div class="min-h-32 bg-purple-600 px-3 font-semibold">min-h-32</div>
+            <div class="min-h-24 bg-purple-700 px-3 font-semibold">min-h-24</div>
+            <div class="min-h-full bg-purple-800 px-3 font-semibold">min-h-full</div>
+          </div> <br>
+        
 
-    <!-- Max Height -->
+       Max Height 
     <!-- https://tailwindcss.com/docs/max-height -->
+    <div class=" flex h-96 bg-violet-300 gap-3 px-3 py-3">
+      <div class="h-full max-h-80 bg-pink-200 px-3 font-semibold">max-h-80</div>
+      <div class="h-full max-h-64 bg-pink-300 px-3 font-semibold">max-h-64</div>
+      <div class="h-full max-h-48 bg-pink-400 px-3 font-semibold">max-h-48</div>
+      <div class="h-full max-h-40 bg-pink-500 px-3 font-semibold">max-h-40</div>
+      <div class="h-full max-h-32 bg-pink-600 px-3 font-semibold">max-h-32</div>
+      <div class="h-full max-h-24 bg-pink-700 px-3 font-semibold">max-h-24</div>
+      <div class="h-full max-h-full bg-pink-800 px-3 font-semibold">max-h-full</div>
+    </div> <br>
+    ​
+  
 
-    <!-- Full screen height -->
+    Full screen height 
+     <div class="bg-black px-3 py-5">
+      <div class="min-h-screen bg-green-600 px-3 font-semibold">min-h-screen</div>
+     </div> <br>
 
-    <!-- Width Auto -->
+     Width Auto 
+     <div class="h-36 bg-rose-800 px-2 py-4">
+      <div class="w-full md:w-auto bg-pink-200 px-2 py-5 font-bold text-xl">w-auto</div>
+     </div>
   </body>
 </html>
