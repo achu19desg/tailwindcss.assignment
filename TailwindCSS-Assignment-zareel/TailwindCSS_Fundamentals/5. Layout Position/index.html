@@ -9,6 +9,30 @@
   </head>
   <body class="p-20">
     <!-- https://tailwindcss.com/docs/position -->
+     <div>
+      <div class="relative bg-pink-700 h-24 text-black font-bold text-xl px-2">
+        <p>Static parent</p>
+        <div class="absolute bottom-1 left-4 bg-rose-300 text-black font-bold text-xl px-2 py-2">
+          <p>Absolute child</p>
+        </div>
+      </div>
+     </div><br>
+  <!-- fixed -->
+     <div class="relative bg-cyan-700 h-48 px-3 py-3">
+      <div class="fixed text-black font-bold text-2xl text-white">Contacts</div>
+      <div> <br> <br>
+        <div class="flex bg-cyan-500">
+          <img class="size-8" src="contact.png" />
+          <strong>Andrew S</strong>
+        </div> <br>
+        <div class="flex bg-cyan-500">
+          <img class="size-9" src="contact.png" />
+          <strong>Debo shah</strong>
+        </div>
+      </div>
+    </div> <br>
+
     <!-- https://tailwindcss.com/docs/display -->
+     
   </body>
 </html>
