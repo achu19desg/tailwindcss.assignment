@@ -11,3 +11,6 @@
 
 ### 4. Sizing
 ![ss3](./TailwindCSS_Fundamentals/4.%20Sizing/sizing.jpeg)
+
+### 5. Layout position
+![ss5](./TailwindCSS_Fundamentals/5.%20Layout%20Position/layout.jpeg)

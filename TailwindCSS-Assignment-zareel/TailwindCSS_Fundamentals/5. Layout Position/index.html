@@ -10,29 +10,68 @@
   <body class="p-20">
     <!-- https://tailwindcss.com/docs/position -->
      <div>
-      <div class="relative bg-pink-700 h-24 text-black font-bold text-xl px-2">
-        <p>Static parent</p>
-        <div class="absolute bottom-1 left-4 bg-rose-300 text-black font-bold text-xl px-2 py-2">
-          <p>Absolute child</p>
-        </div>
-      </div>
-     </div><br>
-  <!-- fixed -->
-     <div class="relative bg-cyan-700 h-48 px-3 py-3">
-      <div class="fixed text-black font-bold text-2xl text-white">Contacts</div>
-      <div> <br> <br>
-        <div class="flex bg-cyan-500">
-          <img class="size-8" src="contact.png" />
-          <strong>Andrew S</strong>
-        </div> <br>
-        <div class="flex bg-cyan-500">
-          <img class="size-9" src="contact.png" />
-          <strong>Debo shah</strong>
-        </div>
-      </div>
+      <h3 class="relative bg-pink-700 h-24 text-black font-bold text-2xl px-2">Static parent</h3>
+        <span class="static bg-rose-300 text-black font-bold text-2xl  px-2 py-2 rounded-lg">Static child</span>
+        <span class="absolute right-10 top-1 bg-rose-300 text-black text-2xl font-bold px-2 py-2 rounded-lg">Absolute child</span>
+        <span class="fixed right-10 top-16 bg-rose-400 text-black text-2xl font-bold px-2 py-2 rounded-lg">Fixed child</span>    
+     </div> <br>
+
+     Sticky
+     <div class="bg-green-800 text-3xl text-black font-semibold p-1">
+      <h1 class="sticky bg-violet-400 text-2xl top-0 text-black font-bold p-2">STICKY HEADING</h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque esse 
+      repellat quas laborum accusantium facilis libero quasi quibusdam magnam nam repudiandae necessitatibus eos architecto voluptatum, voluptatibus, odio iste, 
+      perspiciatis quo! Laboriosam quis illo tenetur exercitationem placeat incidunt, quibusdam molestiae eveniet repudiandae harum hic. Quis dolor sed, earum ipsa autem
+       voluptatibus asperiores veritatis iste dicta debitis. Aut, maiores. Eveniet sit debitis dolorum ut culpa nesciunt numquam ratione? Neque laudantium possimus consequuntur 
+       totam dolore culpa veritatis, nostrum dicta natus voluptatibus quibusdam iusto, facere illo ex. Obcaecati necessitatibus eligendi aspernatur ratione velit nam non fuga ea ipsa 
+       quis dolor maxime, repudiandae ad, sint adipisci autem! Expedita iste perspiciatis officia dolorem ipsa saepe consequuntur. Ea voluptates veritatis pariatur id ratione. Debitis eius 
+       beatae ipsum. Magnam, animi beatae alias excepturi eius vitae explicabo, iste quis qui temporibus enim ullam at totam blanditiis quisquam laborum quidem reprehenderit dicta id modi 
+       porro? Culpa accusantium dolores magnam? Molestias.
     </div> <br>
+    
+  
+
 
     <!-- https://tailwindcss.com/docs/display -->
-     
+      Display
+     <div class="bg-emerald-700 px-1 py-2 text-xl font-semibold">
+    <span class="inline bg-lime-500 px-3 py-1 text-2xl font-bold">display: inline</span> In Tailwind CSS, `inline` is a utility class that sets the display property of an element to `inline`, meaning the element will be rendered inline with the text and other inline elements, without starting on a new line and only taking up as much width as necessary.
+    <span class="block bg-pink-400 px-2 py-1 text-2xl font-bold">display:block</span>In Tailwind CSS, `block` is a utility class that sets an element's display property to `block`. This makes the element a block-level element, meaning it will take up the full width available in its container and start on a new line. <br>
+    <span class="inline-block bg-rose-500 px-3 text-2xl font-bold">display: inline-block</span>In Tailwind CSS, the `inline-block` class sets an element's display property to `inline-block`, which allows the element to be formatted as an inline-level block container. This means the element can have a specified width and height, and it will respect margin and padding settings while still flowing with other inline elements on the same line.
+     </div> <br>
+
+     flex
+     <div class="flex bg-blue-800 px-4 py-8 gap-4 rounded-lg">
+      <button class="text-3xl font-bold text-black bg-blue-200 px-6 py-4 rounded-lg ">Login</button>
+      <button class="text-3xl font-bold text-black bg-blue-300 px-6 py-4 rounded-lg ">Contact</button>
+      <button class="text-3xl font-bold text-black bg-blue-400 px-6 py-4 rounded-lg ">Above</button>
+     </div> <br>
+
+     Grid
+     <div class="grid bg-red-800 px-4 py-8 gap-4 rounded-lg">
+      <button class="text-3xl font-bold text-black bg-red-200 px-6 py-4 rounded-lg ">ON</button>
+      <button class="text-3xl font-bold text-black bg-red-300 px-6 py-4 rounded-lg ">OFF</button>
+      <button class="text-3xl font-bold text-black bg-red-400 px-6 py-4 rounded-lg ">EXIT</button>
+     </div> <br>
+
+     table 
+     <div class="table-caption bg-lime-800 px-4 py-8 gap-4 rounded-lg">
+      <button class="text-3xl font-bold text-black bg-lime-200 px-6 py-4 rounded-lg ">A</button>
+      <button class="text-3xl font-bold text-black bg-lime-300 px-6 py-4 rounded-lg ">B</button>
+      <button class="text-3xl font-bold text-black bg-lime-400 px-6 py-4 rounded-lg ">C</button>
+     </div> <br>
+
+     contents <br>
+     <div class="content bg-stone-800 px-4 py-8 gap-4 rounded-lg">
+      <button class="text-3xl font-bold text-black bg-stone-200 px-6 py-4 rounded-lg ">Login</button>
+      <button class="text-3xl font-bold text-black bg-stone-300 px-6 py-4 rounded-lg ">Contact</button>
+      <button class="text-3xl font-bold text-black bg-stone-400 px-6 py-4 rounded-lg ">Above</button>
+     </div> <br>
+
+     hidden
+     <div class="bg-teal-800 px-4 py-8 gap-4 rounded-lg">
+      <button class="hidden text-3xl font-bold text-black bg-teal-200 px-6 py-4 rounded-lg ">Login</button>
+      <button class="text-3xl font-bold text-black bg-teal-300 px-6 py-4 rounded-lg ">Contact</button>
+      <button class="text-3xl font-bold text-black bg-teal-400 px-6 py-4 rounded-lg ">Above</button>
+     </div> <br>
   </body>
 </html>
