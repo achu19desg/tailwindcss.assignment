@@ -8,14 +8,34 @@
     <title>Backgrounds & Shadows</title>
   </head>
   <body>
-    <!-- Background Images -->
+      Background Images 
     <!-- https://tailwindcss.com/docs/background-image -->
+    <div class="bg-black px-2 py-1 mt-1">
+      <div class="h-14 bg-gradient-to-t from-purple-500 to-pink-500 px-2 py-2 mt-1 rounded-lg"></div>
+      <div class="h-14 bg-gradient-to-tr from-blue-500 to-lime-400 px-2 py-2 mt-1 rounded-lg"></div>
+      <div class="h-14 bg-gradient-to-r from-orange-300 to-green-500 px-2 py-2 mt-1 rounded-lg"></div>
+      <div class="h-14 bg-gradient-to-br from-rose-500 to-teal-500 px-2 py-2 mt-1 rounded-lg"></div>
+      <div class="h-14 bg-gradient-to-br from-yellow-500 to-stone-500 px-2 py-2 mt-1 rounded-lg"></div> 
+     </div> <br>
 
-    <!-- Shadows -->
+      Shadows 
     <!-- https://tailwindcss.com/docs/drop-shadow -->
     <!-- I know we didn't cover flexbox, but it's just for demo purposes -->
-
-    <!-- Gradients -->
+     <div class="flex gap-3 px-2 ">
+      <div class="h-24 bg-white m-3 border-4 shadow-md font-semibold text-xl px-2 py-1 rounded-lg">shadow-md</div>
+      <div class="w-100 bg-white m-3 border-4 shadow-lg font-semibold text-xl px-2 py-1 ">shadow-lg</div>
+      <div class="w-100 bg-white m-3 border-4 shadow-xl font-semibold text-xl px-2 py-1 ">shadow-xl</div>
+      <div class="w-100 bg-white m-3 border-4 shadow-2xl font-semibold text-xl px-2 py-1">shadow-2xl</div> 
+      </div> <br>
+      
+      gradient-color-stops
     <!-- https://tailwindcss.com/docs/gradient-color-stops -->
+    <div class="flex m-4 gap-4 bg-black px-2 py-2 ">
+      <div class="h-14 bg-gradient-to-t from-purple-500 to-pink-500 px-20"></div>
+      <div class="h-14 bg-gradient-to-tr from-blue-500 to-lime-400 px-8"></div>
+      <div class="h-14 bg-gradient-to-r from-orange-300 to-green-500 px-5 py-2 rounded-full"></div>
+      <div class="h-14 bg-gradient-to-br from-violet-300 to-green-500 px-10 py-2 rounded-lg"></div>
+     </div> <br>
+     
   </body>
 </html>
