@@ -17,3 +17,6 @@
 
 ### 6. Background shadows
 ![ss6](./TailwindCSS_Fundamentals/6.%20Backgrounds%20Shadows/background.png)
+
+### 7. Borders
+![ss7](./TailwindCSS_Fundamentals/7.%20Borders/border.png)
