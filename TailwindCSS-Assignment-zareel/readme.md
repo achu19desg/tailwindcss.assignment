@@ -33,3 +33,6 @@
 
 ### 11.Grid
 ![ss11](./TailwindCSS_Fundamentals/11.%20Grid/grid.jpeg)
+
+### 12. Transform transition
+![ss12](./TailwindCSS_Fundamentals/12.%20transform%20transition/transition.jpeg)
