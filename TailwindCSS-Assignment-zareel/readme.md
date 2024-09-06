@@ -30,3 +30,6 @@
 
 ### 10. Flex
 ![ss10](./TailwindCSS_Fundamentals/10.%20Flexbox/flex.jpeg)
+
+### 11.Grid
+![ss11](./TailwindCSS_Fundamentals/11.%20Grid/grid.jpeg)
