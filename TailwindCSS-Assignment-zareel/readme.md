@@ -27,3 +27,6 @@
 ### 9. Break points
 ![ss9](./TailwindCSS_Fundamentals/9.%20Breakpoints/breakpoint1.jpeg)
 ![ss9](./TailwindCSS_Fundamentals/9.%20Breakpoints/breakpoint2.jpeg)
+
+### 10. Flex
+![ss10](./TailwindCSS_Fundamentals/10.%20Flexbox/flex.jpeg)
