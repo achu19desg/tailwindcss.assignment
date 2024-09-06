@@ -10,9 +10,19 @@
   <body class="p-10">
     <!-- No Transition -->
 
-    <!-- Transition -->
+     Transition 
     <!-- 1. https://tailwindcss.com/docs/transition-property -->
+     <div>
+      <button class="transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none ...">
+        Hover me
+      </button>
+     </div>
     <!-- 2. https://tailwindcss.com/docs/transition-duration -->
+             <div class="bg-cyan-400">
+              <button class="transition duration-150 ease-in-out bg-green-300">Button A</button>
+              <button class="transition duration-300 ease-in-out bg-green-300">Button B</button>
+              <button class="transition duration-700 ease-in-out bg-green-300">Button C</button>
+             </div>
     <!-- 3. https://tailwindcss.com/docs/transition-timing-function -->
     <!-- 4. https://tailwindcss.com/docs/transition-delay -->
     <!-- 5. https://tailwindcss.com/docs/animation -->
